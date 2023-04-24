@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.container-one {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    gap: 150px;
+    flex: 1;
+}
+
+.container-one img {
+    height: 200px;
+    width: 300px;
+    flex-basis: 300px;
+    border-radius: 25px;
+    padding-bottom: 50px;
+}
+
+.first-sentence {
+    font-size: 48px;
+    margin: 10px;
+}
+
+.second-sentence {
+    margin: 10px;
+}
+
+.signup-button {
+    color: white;
+    background: royalblue;
+    border-radius: 25px;
+    border: royalblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-one-text {
+    flex-basis: 300px;
+}
+
+.container-two-title {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    color: #1f2937;
+    padding: 20px;
+    margin-bottom: -75px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+
+.container-two img{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.container-two-info {
+    text-align: center;
+}
+
+.container-three {
+    display: flex;
+}
+
+.container-three-info {
+    font-size: 48px;
+    padding: 100px;
+    background: #e5e7eb;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
+
+.container-four {
+    display: flex;
+    background: royalblue;
+    color: white;
+    margin: 100px;
+    border-radius: 25px;
+    padding: 50px 25px;
+    justify-content: space-evenly;
+}
+
+.container-four-first-sentence {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bottomsignup-button {
+    color: white;
+    background: royalblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-color: white;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 25px;
+}
+
